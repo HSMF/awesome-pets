@@ -1,0 +1,17 @@
+[package]
+name = "awesome-pets"
+version = "0.1.0"
+edition = "2021"
+
+# [[bin]]
+# name = "iced"
+# path = "./src/main.iced.rs"
+
+[[bin]]
+name = "awesome-pets"
+path = "./src/main.slint.rs"
+
+[dependencies]
+anyhow = "1.0.81"
+iced = "0.12.1"
+slint = "1.5.1"
